@@ -3,7 +3,7 @@
 
   node bindings for the C "discount" markdown implementation by David Parsons.
   Currently only simply parsing is supported, flags hopefully coming soon.
-  
+
 ## Installation
 
 You will need to install [Discount](http://github.com/Orc/discount) from source, or using
@@ -15,17 +15,17 @@ When using the [Kiwi](http://github.com/visionmedia/kiwi) package manager for no
 
 Otherwise you will need to update the git submodules and run:
 
-    $ make
+    $ node-waf configure build
 
 In order to generate _build/markdown.node_.
-  
+
 ## Usage
 
     var md = require('markdown')
     md.parse('markdown is *awesome*')
     // => "<p>markdown is <em>awesome</em></p>"
 
-## License 
+## License
 
 (The MIT License)
 
